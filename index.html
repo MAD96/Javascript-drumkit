@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS drum kit</title>
+</head>
+
+<body>
+  <section id="topbar">
+    <div class="title">
+      <h1>JS drum kit</h1>
+    </div>
+    <nav id="navbar">
+      <ul>
+        <li><a href="#drumkit">Drum kit</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </section>
+
+
+
+  <section class="container" id="drumkit">
+    <div class="key-pad">
+      <div class="keys">
+        <div class="key" data-key="81" >
+          <h1>Q</h1>
+          <h5>CLAP</h5>
+        </div>
+        <div class="key" data-key="87" >
+          <h1>W</h1>
+          <h5>OPEN HAT</h5>
+        </div>
+        <div class="key" data-key="69">
+          <h1>E</h1>
+          <h5>CLOSED HAT</h5>
+        </div>
+        <div class="key" data-key="65">
+          <h1>A</h1>
+          <h5>KICK</h5>
+        </div>
+        <div class="key" data-key="83">
+          <h1>S</h1>
+          <h5>SNARE</h5>
+        </div>
+        <div class="key" data-key="68">
+          <h1>D</h1>
+          <h5>CRASH</h5>
+        </div>
+        <div class="key" data-key="90">
+          <h1>Z</h1>
+          <h5>808 KICK</h5>
+        </div>
+        <div class="key" data-key="88">
+          <h1>X</h1>
+          <h5>BASS</h5>
+        </div>
+        <div class="key" data-key="67">
+          <h1>C</h1>
+          <h5>LOOP</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="info-card">
+      <div class="profile">
+        <img src="./Assets/profile-pic.jpg" alt="Profile">
+      </div>
+      <h3>Hi there!</h3>
+      <p>I just wanted to make this quick project.<br> It's the first one I made, so feel free to play with it. </p>
+    </div>
+    <div class="social">
+
+      <a href="https://www.linkedin.com/in/andres-medina-971207176/">
+        <img src="https://img.icons8.com/ios-glyphs/96/000000/linkedin.png" alt="LinkedIn"/>
+      </a>
+      <a href="https://github.com/MAD96">
+        <img src="https://img.icons8.com/ios-glyphs/96/000000/github.png"/>
+      </a>
+    </div>
+  </section>
+
+<audio data-key="81" src="./Assets/Audio/clap.wav"></audio>
+<audio data-key="87" src="./Assets/Audio/open-hat.wav"></audio>
+<audio data-key="69" src="./Assets/Audio/closed-hat.wav"></audio>
+<audio data-key="65" src="./Assets/Audio/kick.wav"></audio>
+<audio data-key="83" src="./Assets/Audio/snare.wav"></audio>
+<audio data-key="68" src="./Assets/Audio/crash.wav"></audio>
+<audio data-key="90" src="./Assets/Audio/808-kick.wav"></audio>
+<audio data-key="88" src="./Assets/Audio/bass.wav"></audio>
+<audio data-key="67" src="./Assets/Audio/loop.wav"></audio>
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
